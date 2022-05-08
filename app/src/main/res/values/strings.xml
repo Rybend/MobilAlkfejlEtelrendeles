@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">HAMMarosan</string>
+    <string name="app_fullName">HAMMarosan Futárszolgálat</string>
+    <string name="registration">Regisztráció</string>
+
+    <string-array name="shopping_item_names">
+        <item>Csirkeszárny</item>
+        <item>Sajtburger</item>
+        <item>Rántott karaj</item>
+        <item>Bolognai spagetti</item>
+        <item>Carbonara spagetti</item>
+        <item>Quesadilla</item>
+        <item>Sült hal</item>
+    </string-array>
+
+    <array name="shopping_item_images">
+        <item>@drawable/chicken_wings</item>
+        <item>@drawable/cheeseburger</item>
+        <item>@drawable/fried_pork</item>
+        <item>@drawable/bolognese</item>
+        <item>@drawable/carbonara</item>
+        <item>@drawable/quesadilla</item>
+        <item>@drawable/roasted_fish</item>
+    </array>
+
+    <array name="shopping_item_price">
+        <item>1500 Ft</item>
+        <item>1200 Ft</item>
+        <item>1700 Ft</item>
+        <item>2000 Ft</item>
+        <item>1900 Ft</item>
+        <item>1800 Ft</item>
+        <item>1600 Ft</item>
+    </array>
+</resources>

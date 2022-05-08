@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "795142612976",
+    "project_id": "mobalkprojekt",
+    "storage_bucket": "mobalkprojekt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795142612976:android:5e263bc113d80601e6df35",
+        "android_client_info": {
+          "package_name": "com.example.hammarosan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795142612976-jlm0gcd09rilalj373c0ce8810mhq2j9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBktL6WIgbGYeyvjge8SNZkOcXSxMeitFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795142612976-jlm0gcd09rilalj373c0ce8810mhq2j9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

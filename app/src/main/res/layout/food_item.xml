@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/itemImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true" />
+
+            <TextView
+                android:id="@+id/itemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemImage"
+                android:padding="8dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemTitle"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="12dp"
+                android:padding="8dp"
+                android:textColor="@color/purple_700" />
+
+            <Button
+                android:id="@+id/add_to_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/price"
+                android:layout_centerHorizontal="true"
+                android:text="Kosárba" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
